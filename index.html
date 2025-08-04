@@ -40,6 +40,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
 
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+
     <!-- Fancy Box CDN -->
     <script
       defer
@@ -72,10 +78,10 @@
     tabindex="0"
     data-offset="1">
     <!-- Header Starts  -->
-    <header class="fixed-top shadow-sm" style="background-color: #1e1e1e">
+    <header class="fixed-top shadow-sm" style="background-color: #000000">
       <nav
         class="navbar navbar-expand-lg mx-auto"
-        style="background-color: #1e1e1e"
+        style="background-color: #000000"
         id="main-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -207,74 +213,42 @@
       </section>
       <!-- Slider Section Ends -->
 
-      <!-- Overview Section  -->
-      <section id="overview_section" class="container-fluid p-4">
-        <div class="background_img"></div>
-        <div class="section_heading">
-          <h2 class="section-heading text-center text-uppercase">
-            Welcome To Delta Signature
-          </h2>
-        </div>
+      <!--Overview Section  -->
+      <section id="overview_section" class="container p-4 mt-3">
+        <h2 class="section-heading text-center">Welcome to Satyam LE 36</h2>
 
-        <div class="row mt-4 justify-content-center text-center">
-          <!-- <div class="col-12 col-md-5">
-            <div class="overview_img">
-              <img
-                src="./img/overview/overview.jpg"
-                alt=""
-                width="100%"
-                height="400px" />
-            </div>
-          </div> -->
-
-          <!-- Highlights Section -->
-          <div class="col-12 col-md-12">
-            <div class="highlights-section">
-              <!-- <h2 class="section-title">Project Hallmarks</h2> -->
-              <p class="section-subtitle">
-                Delta SIGNATURE is a 2B+G+12 storey premium residential tower
-                strategically located in a prime area, designed to offer a
-                lavish lifestyle with luxurious amenities and modern
-                architecture. The project emphasizes sustainability, aiming to
-                minimize its environmental impact while enhancing residents’
-                quality of life, making it not only a desirable home but also an
-                attractive investment opportunity.
-              </p>
-
-              <div class="highlights-grid">
-                <div class="highlight-card fade-in">
-                  <div class="highlight-icon">
-                    <i class="fas fa-building"></i>
-                  </div>
-                  <div class="highlight-title">2 B+G+12 Storey Tower</div>
-                </div>
-
-                <div class="highlight-card fade-in">
-                  <div class="highlight-icon">
-                    <i class="fas fa-door-open"></i>
-                  </div>
-                  <div class="highlight-title">World-Class Amenities</div>
-                </div>
-
-                <div class="highlight-card fade-in">
-                  <div class="highlight-icon">
-                    <i class="fas fa-elevator"></i>
-                  </div>
-                  <div class="highlight-title">High-Speed Elevators</div>
-                </div>
-
-                <!-- <div class="highlight-card fade-in">
-                  <div class="highlight-icon">
-                    <i class="fas fa-parking"></i>
-                  </div>
-                  <div class="highlight-title">Ample Parking & Road Access</div>
-                </div> -->
-              </div>
-            </div>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 overview_img">
+            <img class="img-fluid" src="img/overview/overview.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="overview-para mt-3">
+              Welcome to Le 36 Kharghar, a visionary residential landmark by
+              Satyam Developers, poised to redefine the skyline of Navi Mumbai.
+              Nestled in the strategic locale of Sector 36, Kharghar, this
+              project is not just a home, but an address that signifies a ‘Next
+              Level’ lifestyle. Offering a perfect blend of magnificent
+              residences, world-class amenities, and unparalleled convenience,
+              Le 36 is crafted for those who aspire for more.
+              <br /><br />
+              This is where ambition meets architecture. Satyam Developers, a
+              powerhouse in real estate, brings together experience and youthful
+              passion to create a masterpiece. Driven by the expertise of minds
+              like Mr. Hitesh Jain and Mr. Karan Gulati, Le 36 is the first of
+              many upcoming landmarks, designed to offer a larger-than-life
+              experience. It’s a promise of a future where every day feels like
+              an upgrade.
+            </p>
+            <button
+              class="btn btn-outline-dark download_btn"
+              data-bs-toggle="modal"
+              data-bs-target="#popupModal">
+              <i class="fa-solid fa-download nav-icon"></i> Download Brochure
+            </button>
           </div>
         </div>
       </section>
-      <!-- Overview Section Ends -->
+      <!--Overview Section  Ends -->
 
       <!-- Gallery Section -->
       <section id="gallery_section" class="container py-3">
@@ -379,14 +353,14 @@
                 <h3>2 BHK</h3>
 
                 <div class="features">
-                  <p><strong>Area:</strong> 638 Sq.Ft.</p>
+                  <p><strong>Area:</strong> 732 Sq.Ft.</p>
                   <!-- <p>
                     <strong>Floor Plan:</strong> 1 Bedroom, 1 Bathroom, Kitchen,
                     Living Room, Balcony
                   </p> -->
                   <!-- <p><strong>Possession:</strong> Soon</p> -->
                 </div>
-                <div class="price">₹ 1.03 Cr*</div>
+                <div class="price">₹ 1.21 Cr*</div>
                 <button
                   class="btn btn-primary-estate me-3 mb-3 cta-btn"
                   data-bs-toggle="modal"
@@ -402,14 +376,14 @@
                 <h3>3 BHK</h3>
 
                 <div class="features">
-                  <p><strong>Area:</strong> 811 Sq.Ft.</p>
+                  <p><strong>Area:</strong> 1026 Sq.Ft.</p>
                   <!-- <p>
                     <strong>Floor Plan:</strong> 2 Bedrooms, 2 Bathrooms,
                     Kitchen, Living Room, Dining Area, Balcony
                   </p> -->
                   <!-- <p><strong>Possession:</strong> Soon</p> -->
                 </div>
-                <div class="price">₹ On Request</div>
+                <div class="price">₹ 1.73 Cr*</div>
                 <button
                   class="btn btn-primary-estate me-3 mb-3 cta-btn"
                   data-bs-toggle="modal"
@@ -447,109 +421,64 @@
       </section>
       <!-- Configuration Section Ends -->
 
-      <!-- Amenities Section -->
-      <section id="amenities_section" class="container p-4 mt-3">
+      <!-- Amenities  Section  -->
+      <section id="amenities_section" class="mt-5">
         <div>
-          <h3 class="section-heading">Amenities</h3>
+          <h3 class="section-heading pb-3">Amenities</h3>
+          <!-- <h5 class="sub-heading text-center">REQUIRED :- TAGLINE</h5> -->
         </div>
-        <!-- Amenities  -->
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img red">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/yoga.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Meditation <span> Area</span></h3>
-                </figcaption>
-              </figure>
-            </div>
 
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img blue">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/swimming-pool.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Swimming <span> Pool</span></h3>
-                </figcaption>
-              </figure>
-            </div>
+        <div class="container-fluid">
+          <div class="amenities_section">
+            <figure class="snip1113">
+              <img src="img/amenities/swimming-pool.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Swimming <span> Pool</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/mini_theatre.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Mini <span> Theatre</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/path.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Landscaped <span> Gardens</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/gym.webp" alt="pr-sample1" />
+              <figcaption>
+                <h3>Indoor <span>Gymnasium </span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/indoor-games.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Indoor <span> Games</span></h3>
+              </figcaption>
+            </figure>
 
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/indoor-games.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Kids Play <span> Area</span></h3>
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img red">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/jogging.webp"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Jogging <span> Tracks</span></h3>
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/senior-citezen.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Senior Citizen <span> Area</span></h3>
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img blue">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/outdoor-amphitheater.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Outdoor <span> Amphitheater</span></h3>
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img red">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/banquet-hall.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>Club <span> house</span></h3>
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-              <figure class="fig_img">
-                <img
-                  class="img-fluid"
-                  src="img/amenities/lift.jpg"
-                  alt="sample33" />
-                <figcaption>
-                  <h3>High Speed <span> Lift</span></h3>
-                </figcaption>
-              </figure>
-            </div>
+            <figure class="snip1113">
+              <img src="img/amenities/club-house.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Indoor <span> Clubhouse</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/banquet-hall.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Banquet <span> Hall</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/jogging.webp" alt="pr-sample1" />
+              <figcaption>
+                <h3>Jogging <span> track</span></h3>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
@@ -576,7 +505,7 @@
               data-aos-delay="200">
               <div class="location-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9574863566577!2d77.68369247454562!3d12.910454016217013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1310c461a6e3%3A0xd4940a960d13d2cb!2sThe%20Signature%20by%20Delta!5e0!3m2!1sen!2sin!4v1753444858777!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.5599855123696!2d73.07219979999999!3d19.0830743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c182ad03e313%3A0x2e57c36bf751efb9!2sSatyam%20L%C3%A8%2036!5e0!3m2!1sen!2sin!4v1754309203179!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   frameborder="0"
@@ -608,7 +537,23 @@
                     </div> -->
                     <div class="location-info">
                       <h4 class="location-name">
-                        <i class="fas fa-route"></i> JNPT Road
+                        <i class="fas fa-route"></i> Metro Station
+                      </h4>
+                      <!-- <p class="location-distance">
+                        <i class="fas fa-route"></i> 5 km away
+                      </p> -->
+                    </div>
+                    <div class="time-badge">
+                      <i class="fas fa-clock"></i> 3 Mins
+                    </div>
+                  </div>
+                  <div class="location-card" data-point="metro">
+                    <!-- <div class="location-icon">
+                      <i class="fas fa-school"></i>
+                    </div> -->
+                    <div class="location-info">
+                      <h4 class="location-name">
+                        <i class="fas fa-route"></i> Central Park
                       </h4>
                       <!-- <p class="location-distance">
                         <i class="fas fa-route"></i> 5 km away
@@ -624,23 +569,7 @@
                     </div> -->
                     <div class="location-info">
                       <h4 class="location-name">
-                        <i class="fas fa-route"></i> Navi Mumbai Intl. Airport
-                      </h4>
-                      <!-- <p class="location-distance">
-                        <i class="fas fa-route"></i> 5 km away
-                      </p> -->
-                    </div>
-                    <div class="time-badge">
-                      <i class="fas fa-clock"></i> 15 Mins
-                    </div>
-                  </div>
-                  <div class="location-card" data-point="metro">
-                    <!-- <div class="location-icon">
-                      <i class="fas fa-school"></i>
-                    </div> -->
-                    <div class="location-info">
-                      <h4 class="location-name">
-                        <i class="fas fa-route"></i> Panvel Railway Station
+                        <i class="fas fa-route"></i> Tata Memorial Hospital
                       </h4>
                       <!-- <p class="location-distance">
                         <i class="fas fa-route"></i> 5 km away
@@ -656,14 +585,14 @@
                     </div> -->
                     <div class="location-info">
                       <h4 class="location-name">
-                        <i class="fas fa-route"></i> Atal Setu
+                        <i class="fas fa-route"></i> Sion-Panvel Highway
                       </h4>
                       <!-- <p class="location-distance">
                         <i class="fas fa-route"></i> 5 km away
                       </p> -->
                     </div>
                     <div class="time-badge">
-                      <i class="fas fa-clock"></i> 25 Mins
+                      <i class="fas fa-clock"></i> 15 Mins
                     </div>
                   </div>
                 </div>
@@ -685,7 +614,7 @@
                   <div class="section_heading" data-aos="fade-up">
                     <h2
                       class="section-heading text-center text-white text-uppercase pb-4">
-                      About Delta Group
+                      About Satyam Group
                     </h2>
                   </div>
 
@@ -694,27 +623,23 @@
                     data-aos="fade-up"
                     data-aos-delay="200">
                     <p>
-                      Delta Group has been a trailblazer for 40 Year's in the
-                      real estate industry, leaving an indelible mark on the
-                      landscape of luxury living, with a legacy build on trust,
-                      innovation, and excellence. We have over 16 projects
-                      currently in various stages of construction, showcasing
-                      our ability to manage and execute on a grant scale! Delta
-                      Group's Impressive portfolio boasts an astonishing 32
-                      lakhs Sq.ft of delivered project.
+                      Satyam Developers was founded by visionary CMD Mr. Rajesh
+                      D Gulati, a man who needs no introduction in the property
+                      market in Mumbai. His determination and vision has solely
+                      enabled the group to establish a strong brand image in the
+                      market and cater to the needs of our clients through his
+                      in-depth knowledge, experience, foresightedness and
+                      understanding of the dynamics of the real estate sector.
                     </p>
                     <span id="dots8" style="display: inline"></span>
                     <span id="more8" style="display: none">
                       <p>
-                        Success of a company is always based on the foundation
-                        of its values. At Delta Group, values hold the highest
-                        position. Every project of the group represents the
-                        value for quality and innovation. Timely execution and
-                        before time possession of projects react the value for
-                        customer satisfaction.Extraordinary amenities and
-                        facilities signify the value for aesthetics and
-                        lifestyle while the developments symbolize the value of
-                        trust.
+                        Investing in a variety of systematically identified
+                        businesses and making it well-diversified conglomerate
+                        with interests in a range of projects such as
+                        Residential, Premium Condominiums, Commercial Complexes,
+                        Integrated Modern Townships and Malls. We have been
+                        acknowledged for quality, commitment and reliability.
                       </p>
                     </span>
                   </div>
